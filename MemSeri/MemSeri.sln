@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemSeri", "MemSeri\MemSeri.csproj", "{9DA78A6A-7ED7-4B8B-BEBC-3BD88C86BD27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DA78A6A-7ED7-4B8B-BEBC-3BD88C86BD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA78A6A-7ED7-4B8B-BEBC-3BD88C86BD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA78A6A-7ED7-4B8B-BEBC-3BD88C86BD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA78A6A-7ED7-4B8B-BEBC-3BD88C86BD27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B686DFE-1CFC-40E0-9B7B-50754D094E09}
+	EndGlobalSection
+EndGlobal
