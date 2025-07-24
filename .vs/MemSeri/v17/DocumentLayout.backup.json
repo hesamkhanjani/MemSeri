@@ -1,12 +1,104 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\My\\MyProject\\MemSeri\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|c:\\my\\myproject\\memseri\\memseri\\memseri.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|solutionrelative:memseri\\memseri.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|c:\\my\\myproject\\memseri\\memseri\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|solutionrelative:memseri\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|c:\\my\\myproject\\memseri\\memseri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|solutionrelative:memseri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|c:\\my\\myproject\\memseri\\memseri\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B108E65B-085E-4765-8430-397D083F24E5}|MemSeri\\MemSeri.csproj|solutionrelative:memseri\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAIwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-24T17:15:11.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\My\\MyProject\\MemSeri\\MemSeri\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "MemSeri\\ViewLocator.cs",
+              "ToolTip": "C:\\My\\MyProject\\MemSeri\\MemSeri\\ViewLocator.cs",
+              "RelativeToolTip": "MemSeri\\ViewLocator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T17:07:12.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My\\MyProject\\MemSeri\\MemSeri\\Program.cs",
+              "RelativeDocumentMoniker": "MemSeri\\Program.cs",
+              "ToolTip": "C:\\My\\MyProject\\MemSeri\\MemSeri\\Program.cs",
+              "RelativeToolTip": "MemSeri\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T17:07:10.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\My\\MyProject\\MemSeri\\MemSeri\\App.axaml.cs",
+              "RelativeDocumentMoniker": "MemSeri\\App.axaml.cs",
+              "ToolTip": "C:\\My\\MyProject\\MemSeri\\MemSeri\\App.axaml.cs",
+              "RelativeToolTip": "MemSeri\\App.axaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T17:07:04.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemSeri.csproj",
+              "DocumentMoniker": "C:\\My\\MyProject\\MemSeri\\MemSeri\\MemSeri.csproj",
+              "RelativeDocumentMoniker": "MemSeri\\MemSeri.csproj",
+              "ToolTip": "C:\\My\\MyProject\\MemSeri\\MemSeri\\MemSeri.csproj",
+              "RelativeToolTip": "MemSeri\\MemSeri.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T17:03:16.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
