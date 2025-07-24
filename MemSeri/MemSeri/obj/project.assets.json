@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Avalonia >= 11.3.0",
+      "Avalonia.Desktop >= 11.3.0",
+      "Avalonia.Diagnostics >= 11.3.0",
+      "Avalonia.Fonts.Inter >= 11.3.0",
+      "Avalonia.Themes.Fluent >= 11.3.0",
+      "CommunityToolkit.Mvvm >= 8.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pn64\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\My\\MyProject\\MemSeri\\MemSeri\\MemSeri\\MemSeri.csproj",
+      "projectName": "MemSeri",
+      "projectPath": "C:\\My\\MyProject\\MemSeri\\MemSeri\\MemSeri\\MemSeri.csproj",
+      "packagesPath": "C:\\Users\\pn64\\.nuget\\packages\\",
+      "outputPath": "C:\\My\\MyProject\\MemSeri\\MemSeri\\MemSeri\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pn64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Avalonia": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "Avalonia.Desktop": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "Avalonia.Diagnostics": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "Avalonia.Fonts.Inter": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "Avalonia.Themes.Fluent": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Avalonia.Themes.Fluent (>= 11.3.0)' for 'net8.0'.",
+      "libraryId": "Avalonia.Themes.Fluent",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Avalonia.Desktop (>= 11.3.0)' for 'net8.0'.",
+      "libraryId": "Avalonia.Desktop",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Avalonia.Fonts.Inter (>= 11.3.0)' for 'net8.0'.",
+      "libraryId": "Avalonia.Fonts.Inter",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Avalonia (>= 11.3.0)' for 'net8.0'.",
+      "libraryId": "Avalonia",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Avalonia.Diagnostics (>= 11.3.0)' for 'net8.0'.",
+      "libraryId": "Avalonia.Diagnostics",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'CommunityToolkit.Mvvm (>= 8.2.1)' for 'net8.0'.",
+      "libraryId": "CommunityToolkit.Mvvm",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
