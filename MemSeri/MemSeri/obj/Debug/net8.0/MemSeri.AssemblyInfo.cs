@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemSeri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0af7c8cef1ce84dc6683ec51e05eff906b465f6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7088fc36cd8ce6aaf985455a73a5b7fd51a22ae2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemSeri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemSeri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
