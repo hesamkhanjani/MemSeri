@@ -1,9 +1,9 @@
-package com.example.memseri;
+package com.example.memseri.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class AppController {
+public class MainController {
     @FXML
     private Label welcomeText;
 
