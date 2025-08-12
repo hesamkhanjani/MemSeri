@@ -1,0 +1,113 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:MemSeri.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		Height="450"
+		Width="800"
+		CanResize="False"
+        x:Class="MemSeri.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="MemSeri">
+
+	<Design.DataContext>
+
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+	<Grid>
+		<Border Background="#FFFDE7" CornerRadius="20" Padding="80" Margin="20"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Center">
+
+			<StackPanel Spacing="12" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+				<!-- Radio buttons grouped by GroupName -->
+				<StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+					
+					<RadioButton x:Name="Serialize" Foreground="Black" Content="Serialize" IsChecked="True" GroupName="Mode">
+						<RadioButton.Styles>
+							<Style Selector=":pointerover" x:SetterTargetType="RadioButton">
+								<Setter Property="Foreground" Value="Black" />
+
+							</Style>
+						</RadioButton.Styles>
+					</RadioButton>
+					
+					
+					<RadioButton x:Name="Deserialize" Foreground="Black" Content="Deserialize" GroupName="Mode">
+						<RadioButton.Styles>
+							<Style Selector=":pointerover" x:SetterTargetType="RadioButton">
+								<Setter Property="Foreground" Value="Black" />
+
+							</Style>
+						</RadioButton.Styles>
+					</RadioButton>
+
+				</StackPanel>
+
+				<TextBox x:Name="JsonModelTextBox"
+						 Width="400"
+						 Watermark="Your JSON model"
+						 Background="#FFF9C4"
+						 BorderBrush="#FBC02D"
+						 
+						 HorizontalAlignment="Center" >
+					<TextBox.Styles>
+						<Style Selector=":pointerover" x:SetterTargetType="TextBox">
+							<Setter Property="Background" Value="#FBC02D" />
+							<Setter Property="Foreground" Value="Black" />
+
+						</Style>
+					</TextBox.Styles>
+					
+				</TextBox>
+
+				<TextBox x:Name="SerializedInput"
+						 Width="400"
+						 Watermark="Your serialized data"
+						 Background="#FFF9C4"
+						 BorderBrush="#FBC02D"
+						 IsVisible="False"
+						 HorizontalAlignment="Center" />
+
+				<Button x:Name="ConvertButton"
+						Content="Convert"
+						Width="140"
+						Padding="8"
+						Foreground="Black"
+						Background="#FFEB3B"
+						BorderBrush="Black"
+						FontWeight="Bold"
+						HorizontalAlignment="Center"
+						HorizontalContentAlignment="Center"
+						VerticalContentAlignment="Center">
+
+					<Button.Styles>
+						<Style Selector=":pointerover" x:SetterTargetType="Button">
+							<Setter Property="Background" Value="#FBC02D" />
+							<Setter Property="BorderBrush" Value="#FFA000" />
+							<Setter Property="Foreground" Value="black" />
+
+						</Style>
+					</Button.Styles>
+				</Button>
+
+
+				<TextBox x:Name="OutputTextBlock"
+						 FontSize="16"
+						 Text=""
+						 Foreground="#F57F17"
+						 TextWrapping="Wrap"
+						 HorizontalAlignment="Center"
+						 IsReadOnly="True"
+						 Background="Transparent"
+						 BorderThickness="0"/>
+
+			</StackPanel>
+		</Border>
+	</Grid>
+
+</Window>
