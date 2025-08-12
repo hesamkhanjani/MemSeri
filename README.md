@@ -1,6 +1,6 @@
 # MemSeri Project
 
-Welcome to the **MemSeri** project! This application is designed to help you easily serialize and deserialize JSON data with a clean and user-friendly interface.
+Welcome to the **MemSeri(MemoryPack)** project! This application is designed to help you easily serialize and deserialize JSON data with a clean and user-friendly interface.
 
 ## Features
 
